@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/migrations/brands_table.sql
+  - include:
+      file: db/changelog/migrations/prices_table.sql
+  - include:
+      file: db/changelog/migrations/brands_table_seed_data.sql
+  - include:
+      file: db/changelog/migrations/prices_table_seed_data.sql
